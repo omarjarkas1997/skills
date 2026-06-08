@@ -2,6 +2,7 @@
 
 Skills I use daily for code work.
 
+- **[ai-execution](./ai-execution/SKILL.md)** — Hand off a detailed plan to an executor agent and receive a structured logbook for planner review.
 - **[diagnose](./diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
 - **[grill-with-docs](./grill-with-docs/SKILL.md)** — Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates `CONTEXT.md` and ADRs inline.
 - **[triage](./triage/SKILL.md)** — Triage issues through a state machine of triage roles.
