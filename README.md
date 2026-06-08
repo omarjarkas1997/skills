@@ -147,6 +147,7 @@ Software engineering fundamentals matter more than ever. These skills are my bes
 Skills I use daily for code work.
 
 - **[ai-execution](./skills/engineering/ai-execution/SKILL.md)** — Hand off a detailed plan to an executor agent and receive a structured logbook for planner review.
+- **[execution-plan](./skills/engineering/execution-plan/SKILL.md)** — Universal execution planning framework. Creates comprehensive, handoff-ready plans that any agent can execute.
 - **[diagnose](./skills/engineering/diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
 - **[grill-with-docs](./skills/engineering/grill-with-docs/SKILL.md)** — Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates `CONTEXT.md` and ADRs inline.
 - **[triage](./skills/engineering/triage/SKILL.md)** — Triage issues through a state machine of triage roles.
