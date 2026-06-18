@@ -3,6 +3,7 @@
 Skills I use daily for code work.
 
 - **[ai-execution](./ai-execution/SKILL.md)** — Hand off a detailed plan to an executor agent and receive a structured logbook for planner review.
+- **[domino](./domino/SKILL.md)** — Execute a pre-existing plan interactively, one step at a time, with a hard confirmation gate before each step.
 - **[execution-plan](./execution-plan/SKILL.md)** — Universal execution planning framework. Creates comprehensive, handoff-ready plans that any agent can execute.
 - **[diagnose](./diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
 - **[grill-with-docs](./grill-with-docs/SKILL.md)** — Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates `CONTEXT.md` and ADRs inline.
