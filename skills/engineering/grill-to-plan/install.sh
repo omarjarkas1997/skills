@@ -1,13 +1,23 @@
 #!/usr/bin/env bash
 set -euo pipefail
-# Install grill-to-plan skill into .skills/ for opencode/Claude/pi discovery.
+# Install grill-to-plan skill into ~/.config/opencode/skills/ for opencode/Claude/pi discovery.
+# Also installs into the repo's .skills/ if present, for project-local discovery.
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/../../.." && pwd)"
-TARGET_DIR="$REPO_ROOT/.skills/grill-to-plan"
 
-mkdir -p "$TARGET_DIR"
-cp "$SCRIPT_DIR/SKILL.md" "$TARGET_DIR/SKILL.md"
-cp "$SCRIPT_DIR/README.md" "$TARGET_DIR/README.md"
+install_to() {
+  local target_dir="$1"
+  mkdir -p "$target_dir"
+  cp "$SCRIPT_DIR/SKILL.md" "$target_dir/SKILL.md"
+  cp "$SCRIPT_DIR/README.md" "$target_dir/README.md"
+  echo "grill-to-plan installed to $target_dir"
+}
 
-echo "grill-to-plan installed to $TARGET_DIR"
+# Primary opencode/Claude/pi location
+install_to "${HOME}/.config/opencode/skills/grill-to-plan"
+
+# Optional project-local location
+if [[ -d "$REPO_ROOT/.skills" ]] || [[ "$REPO_ROOT" == "$PWD" ]]; then
+  install_to "$REPO_ROOT/.skills/grill-to-plan"
+fi
