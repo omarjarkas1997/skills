@@ -147,6 +147,7 @@ Software engineering fundamentals matter more than ever. These skills are my bes
 Skills I use daily for code work.
 
 - **[ai-execution](./skills/engineering/ai-execution/SKILL.md)** — Hand off a detailed plan to an executor agent and receive a structured logbook for planner review.
+- **[coding-principles](./skills/engineering/coding-principles/SKILL.md)** — Review code through KISS, DRY, SOLID, and YAGNI lenses. Produces a ranked list of up to 3 high-impact changes, each tagged with the principle(s) and named conflict-resolution rule that drove it.
 - **[domino](./skills/engineering/domino/SKILL.md)** — Execute a pre-existing plan interactively, one step at a time, with a hard confirmation gate before each step.
 - **[execution-plan](./skills/engineering/execution-plan/SKILL.md)** — Universal execution planning framework. Creates comprehensive, handoff-ready plans that any agent can execute.
 - **[diagnose](./skills/engineering/diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.

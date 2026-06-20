@@ -3,6 +3,7 @@
 Skills I use daily for code work.
 
 - **[ai-execution](./ai-execution/SKILL.md)** — Hand off a detailed plan to an executor agent and receive a structured logbook for planner review.
+- **[coding-principles](./coding-principles/SKILL.md)** — Review code through KISS, DRY, SOLID, and YAGNI lenses. Produces a ranked list of up to 3 high-impact changes, each tagged with the principle(s) and named conflict-resolution rule that drove it.
 - **[domino](./domino/SKILL.md)** — Execute a pre-existing plan interactively, one step at a time, with a hard confirmation gate before each step.
 - **[execution-plan](./execution-plan/SKILL.md)** — Universal execution planning framework. Creates comprehensive, handoff-ready plans that any agent can execute.
 - **[diagnose](./diagnose/SKILL.md)** — Disciplined diagnosis loop for hard bugs and performance regressions: reproduce → minimise → hypothesise → instrument → fix → regression-test.
